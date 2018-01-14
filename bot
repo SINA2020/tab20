@@ -1,4 +1,4 @@
-redis = (loadfile "redis.lua")()
+redis = (loadfile "redis.lua")
 redis = redis.connect('127.0.0.1', 6379)
 
 function dl_cb(arg, data)
